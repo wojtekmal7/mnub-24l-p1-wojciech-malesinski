@@ -37,6 +37,8 @@ Make sure the MNUB_24L_P1_dane17.mat file is in the same directory or update the
 
 load('MNUB_24L_P1_dane17.mat');
 
+---
+
 ## Tasks
 Task 1: Matrix Formulation
 Construct matrix A and right-hand side b using distance data.
@@ -60,6 +62,8 @@ Independently perturb the z-coordinate of each radar sensor.
 
 Analyze how small errors in sensor positioning affect the solution, determinant, and condition number of matrix A.
 
+---
+
 ## Plots Generated
 3D trajectory of the moving person alongside radar sensor positions.
 
@@ -75,10 +79,14 @@ Determinant of matrix A
 
 Condition number of matrix A
 
+---
+
 ## Requirements
 MATLAB (tested with R2021 or newer)
 
 No additional toolboxes required
+
+---
 
 ## License
 This project is intended for educational use only.
